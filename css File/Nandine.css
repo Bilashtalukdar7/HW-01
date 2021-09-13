@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{margin:0px;padding:0px;}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+.header{
+    height: 700px;
+    width: 100%;
+    background:url(../Image/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Container {
+    width: 1190px;
+    margin: auto;
+}
+.navBarImg {
+    height: 90px;
+}
+.navBarWrapper {
+    padding: 15px 0px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 170px;
+    float: left;
+}
+
+.items {
+    color: white;
+    float: left;
+    padding-left: 243px;
+    padding-top: 10px;
+  
+}
+
+.items ul li {
+    list-style: none;
+    float: left;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.navBarImg{
+    background:#1B242F;
+}
+
+.titleDesk h1 {
+    color: white;
+    font-size: 61px;
+    font-family: inherit;
+    font-weight: 400;
+    padding-top: 110px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
+
+.titleDesk p {
+    color: white;
+    width: 873px;
+    font-size: 19px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.titleDesk {
+    padding-left: 0px;
+}
+
+.contentBtn button {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    background: #363e68;
+    border: none;
+}
+
+
+.contentBtn button:hover {
+    background: #F4051F;
+}
+.contentBtn {
+    
+    padding: 32px 460px;
+}
+
+.headline h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    color:#F4051F
+}
+
+
+.AboutDescription {
+   
+    margin: 40px 0px;
+    overflow: hidden;
+}
+section{
+    margin: 50px 0px;
+}
+.AboutImg {
+    float: left;
+    width: 410px;
+   
+}
+
+.AboutImg Img {
+    display: block;
+}
+
+.description {
+    overflow: hidden;
+    display: block;
+   
+}
+
+.description h2 {
+    padding-bottom: 20px;
+}
+.description p {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.description span {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.description p {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.description span {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.headline span {
+    width: 200px;
+    height: 10px;
+    color: green;
+  
+}
+span {
+    width: 100px;
+}
+
+.headline span {
+    width: 127px;
+    height: 3px;
+    background: #FF5200;
+    display: inherit;
+    margin: auto;
+}
+.resumCV {
+    width: 250px;
+    float: left;
+}
+.resumCV button {
+    height: 50px;
+    width: 220px;
+    border: none;
+    background: #0000ff9e;
+    color: white;
+    margin: 60px 0px;
+    font-size: 25px;
+}
+
+.resumCV button i {
+    margin-left: 25px;
+}
+.resumCV button:hover {
+    background: #ff5200;
+}
+.videoImg{
+    height: 300px;
+    width: 100%;
+    background:url(../Image/about\ video.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.Container h1 {
+    color: red;
+    text-align: center;
+    
+    font-size: 35px;
+    font-weight: 400;
+}
+.Container span i {
+    color: gainsboro;
+    font-size: 99px;
+    padding-left: 560px;
+    padding-top: 15px;
+}
+
+.Container span i:hover {
+    color: #ff5200;
+}
+.headlineServices h1 {
+    color: green;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.headlineServices h1 p {
+    color: #ff5200;
+    display: inline;
+}
+
+.headlineServices span {
+    width: 161px;
+    height: 3px;
+    background: #FF5200;
+    display: inherit;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.webDesign {
+    width: 340px;
+    float: left;
+    margin: 30px 28px;
+}
+
+.webDesignLogo i {font-size: 40px;
+    padding: 10px 145px;
+    color: #ff5200;
+    text-align: center;}
+
+.webDesginDesk h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.service1 {
+    overflow: hidden;
+    display: block;
+}
+.service1 {
+    overflow: hidden;
+    display: block;
+}
+
+section.mySkill {
+    background: gainsboro;
+}
+
+.myskillTitle {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0px;
+}
+
+.skillWrapper {
+    
+    height: 380px;
+}
+
+.skillDesk h2 {
+    padding: 15px 0px;
+}
+
+.skillDesk span {
+    margin-bottom: 29px;
+}
+
+.skillDesk p {
+    margin: 50px 0px;
+}
+
+.skillDesk {
+    word-spacing: 10px;
+    float: left;
+    width: 45%;
+}
+.clientMeet{
+        height: 200px;
+        width: 100%;
+        background:url(../Image/client-meet-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    section.clientMeet {
+        margin-bottom: 30px;
+    }
+    
+    .meetLogo {
+        color: white;
+        width: 255px;
+        text-align: center;
+        padding: 28px 0px;
+        float: left;
+    }
+    
+    .meetLogo i {
+        font-size: 60px;
+        text-align: center;
+        margin: auto;
+        padding-left: 10px;
+        color: white;
+    }
+    
+    .meetLogo p {
+        font-size: 25px;
+        padding: 10px;
+    }
+    .footer2 {
+        background: cadetblue;
+    }
+    
+    .social {
+        float: left;
+        font-size: 25px;
+        word-spacing: 15px;
+        color: white;
+    }
+    
+    .copyWriteContent {
+        /* float: left; */
+        width: 499px;
+        margin-left: 847px;
+        font-size: 25px;
+    }
+    
+    .social:hover {
+        color: #ff5200;
+    }
+.footerImg{
+    height: 600px;
+    width: 100%;
+    background:url(../Image/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.footerTitle {
+    /* display: inline; */
+    font-size: 20px;
+}
+
+.footerTitle h2 {
+    display: inline;
+    float: left;
+    padding: 45px 460px;
+}
+
+.footerTitle p {
+    float: right;
+    padding-left: 7px;
+    color: #ff5200;
+}
+.footerText input {
+    height: 40px;
+    width: 38%;
+    margin: 25px 65px;
+    border: 1px solid black;
+    background: gainsboro;
+    color: red;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.footerText button {
+    border: none;
+    width: 200px;
+    height: 45px;
+    font-size: 22px;
+    background: blueviolet;
+    border-radius: 6px;
+    margin: 0px 64px;
+}
+
+.footerText button:hover {
+    background: #FF5200;
+    color: white;
+}
+.textArea input {
+    width: 1040px;
+    height: 230px;
+    
+}
+.blog {
+    float: left;
+    width: 325px;
+    margin-right:71px;
+    margin-top: 40px;
+}
+
+.desk h2 {
+    padding: 5px 0px;
+}
+
+.desk p {
+    padding: 20px 0px;
+}
+
+.desk button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    background: cadetblue;
+    color: white;
+    margin-bottom: 40px;
+}
+section{
+    overflow: hidden;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    color:white;
+    padding-top:38px;
+    border-radius: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    
+
+    border-radius: 100%;
+}
+.bgImage{
+    background:url(../Image/testimonial-bg.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teamTitle h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: lightseagreen;
+}
+.teamTitle span {
+    width: 28px;
+    height: 28px;
+    background: #FF5200;
+    display: inherit;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+.teamPerson1 {
+    width: 270px;
+    height: 340px;
+    float: left;
+    margin-right: 27px;
+}
+
+.teamPerson1 img {
+    background-image: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.protfolioTitle span {
+    width: 135px;
+    height: 3px;
+    background: #FF5200;
+    display: inherit;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+.protfolioTitle h2 {
+    font-size: 40px;
+    font-weight: 300;
+    word-spacing: 10px;
+    text-align: center;
+}
+.protfolioTitle ul li {
+    margin-left: 0px;
+    list-style: none;
+    float: left;
+    padding: 0px 20px;
+}
+
+.protfolioTitle ul {
+    margin: 23px 338px;
+}
+.protfolioTitle {
+    overflow: hidden;
+}
+
+.protfolioList1 {
+    width: 370px;
+    height: 240px;
+    float: left;
+    margin-right: 40px;
+}
+
+.protfolioList1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.protfolioList3 img {
+    width: 100%;
+    height: 100%;
+}
+.protfolioList3 {
+    width: 370px;
+    height: 240px;
+    float: left;
+}
+.protfolioList {
+    overflow: hidden;
+    margin-top:40px;
+}
+.moreBtn button {
+    width: 170px;
+    height: 45px;
+    border: navajowhite;
+    background: navy;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.moreBtn button:hover {
+    background: #FF5200;
+}
+.protfolioBG {
+    background: #f0f0f0;
+}
